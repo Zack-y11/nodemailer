@@ -33,7 +33,7 @@ class Mail {
 
 }
 enviarMail = async()=> {
-    let remitente = "isaacromero315@gmail.com"// Your email address
+    let remitente = "emailUser"// Your email address
     let password =  "secret key"
     const mail = new Mail(remitente, password, 'destino', 'asunto', "mensaje");
     //los valores asi a manera de ejemplo
